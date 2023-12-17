@@ -1,7 +1,7 @@
 import com.codeborne.selenide.Configuration;
 import com.codeborne.selenide.Selenide;
 import jdk.jfr.Description;
-import org.example.HerokuElements;
+import org.example.elementsLocation.HerokuElements;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

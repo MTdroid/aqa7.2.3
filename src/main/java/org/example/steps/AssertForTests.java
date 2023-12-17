@@ -1,7 +1,7 @@
 package org.example.steps;
 import org.junit.jupiter.api.Assertions;
 
-public class WbSteps {
+public class AssertForTests {
 
     public static void textEquals(String element, String text) {
 

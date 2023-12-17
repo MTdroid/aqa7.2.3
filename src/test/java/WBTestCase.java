@@ -1,8 +1,8 @@
 
 import com.codeborne.selenide.Selenide;
 
-import org.example.WbElements;
-import org.example.steps.WbSteps;
+import org.example.elementsLocation.WbElements;
+import org.example.steps.AssertForTests;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -24,7 +24,7 @@ public class WBTestCase {
         WbElements.bucket.shouldBe(interactable).click();
         WbElements.goToBucket.shouldBe(visible).click();
 
-        WbSteps.textEquals(WbElements.phoneAssert.getAttribute("data-count"),"1");
+        AssertForTests.textEquals(WbElements.phoneAssert.getAttribute("data-count"),"1");
 
     }
 }

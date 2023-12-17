@@ -1,10 +1,11 @@
-package org.example;
+package org.example.elementsLocation;
 
 import com.codeborne.selenide.SelenideElement;
 
 import static com.codeborne.selenide.Selenide.$x;
 
 public class HerokuElements {
+
     public static SelenideElement addRemoveElementsPage = $x("//a[@href='/add_remove_elements/']");
     public static SelenideElement addElement   = $x("//button[@onclick=\"addElement()\"]");
     public static SelenideElement elementAppeared = $x("//button[@class='added-manually']");
